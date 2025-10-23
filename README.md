@@ -8,11 +8,14 @@ as positive or negative.
 **Dataset:**
 
 **Amazon Review Dataset**
+
 ● Column 1: Binary sentiment labels in the dataset:
 Positive: Label 2 (4-5 star reviews)
 Negative: Label 1 (1-2 star reviews)
 3 Star (Neutral Reviews) have been removed from the dataset
+
 ● Column 2: Review Title
+
 ● Column 3: Customer Review
 
 
