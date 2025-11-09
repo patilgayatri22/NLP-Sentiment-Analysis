@@ -1,0 +1,86 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+site/
+.coverage
+htmlcov/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches / tooling
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.huggingface/
+.spacy/
+
+# Logs
+logs/
+*.log
+
+# Data & large artifacts (keep placeholders)
+data/
+datasets/
+models/
+outputs/
+reports/
+tensorboard/
+events.out.tfevents*
+!data/.gitkeep
+!datasets/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
+!reports/.gitkeep
+!tensorboard/.gitkeep
+
+# TF/Keras artifacts
+checkpoint
+*.ckpt*
+*.h5
+*.keras
+*.tfrecord*
+
+# Secrets / creds
+.env
+*.env
+kaggle.json
+*.pem
+*.key
+*.crt
+*.secret
+
+# Temp
+tmp/
+temp/
+*.tmp

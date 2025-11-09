@@ -1,0 +1,8 @@
+services:
+  review-pulse:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python src/train_sentiment.py --model hashed \
+             --train data/raw/train.csv --test data/raw/test.csv
